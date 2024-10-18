@@ -1,7 +1,8 @@
+![iCoo logo]
+(/public/iCooIcon.png)
 # **iCoo**
 
 ## Cooperative platform for self organised mass collaboration
-
 
 ### How it works:
 
