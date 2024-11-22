@@ -20,16 +20,20 @@ export default function BottomTabs() {
         onChange={handleChange}
       >
         <BottomNavigationAction
-          label=""
+          label="Calendar"
           value="Calendar"
           icon={<CalendarTodayIcon />}
         />
         <BottomNavigationAction
-          label=""
-          value="Workspaces"
+          label="Groups"
+          value="Groups"
           icon={<WorkspacesIcon />}
         />
-        <BottomNavigationAction label="" value="People" icon={<PeopleIcon />} />
+        <BottomNavigationAction
+          label="People"
+          value="People"
+          icon={<PeopleIcon />}
+        />
       </BottomNavigation>
     </>
   );
