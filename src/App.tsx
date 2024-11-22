@@ -5,6 +5,9 @@ import AppBar from "./components/AppBar";
 import BottomTabs from "./components/BottomTabs";
 import GroupCard from "./components/GroupCard";
 import KickstartCard from "./components/KickstartCard";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
 import "./App.css";
 
 const darkTheme = createTheme({
@@ -23,8 +26,14 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <Container sx={{ bgcolor: "theme.palette.primary" }}>
           <AppBar />
-          <GroupCard />
-          <KickstartCard />
+          <List>
+            <ListItem>
+              <GroupCard />
+            </ListItem>
+            <ListItem>
+              <KickstartCard />
+            </ListItem>
+          </List>
           <BottomTabs />
         </Container>
       </ThemeProvider>

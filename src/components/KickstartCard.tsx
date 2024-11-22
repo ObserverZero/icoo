@@ -55,7 +55,7 @@ export default function RecipeReviewCard() {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+            O
           </Avatar>
         }
         action={
@@ -69,8 +69,8 @@ export default function RecipeReviewCard() {
       <CardMedia
         component="img"
         height="194"
-        image="/static/images/cards/paella.jpg"
-        alt="Paella dish"
+        image="../public/WhatComesWhenYouDie.png"
+        alt="Icon from heaven"
       />
       <CardContent>
         <Typography
@@ -78,9 +78,7 @@ export default function RecipeReviewCard() {
           align="left"
           sx={{ color: "text.secondary" }}
         >
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          Oh yey, oh yey, oh yey, hail the mighty Icon
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -101,7 +99,9 @@ export default function RecipeReviewCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography align="left" sx={{ marginBottom: 2 }}>Method:</Typography>
+          <Typography align="left" sx={{ marginBottom: 2 }}>
+            Method:
+          </Typography>
           <Typography align="left" sx={{ marginBottom: 2 }}>
             Heat 1/2 cup of the broth in a pot until simmering, add saffron and
             set aside for 10 minutes.
