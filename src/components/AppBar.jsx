@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
+import Avatar from "@mui/material/Avatar";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -63,7 +64,7 @@ export default function SearchAppBar() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            <Avatar aria-label="recipe"></Avatar>
           </IconButton>
           <Typography
             variant="h6"

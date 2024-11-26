@@ -17,16 +17,22 @@ const bull = (
 
 export default function BasicCard() {
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ maxWidth: 345 }}>
       <CardContent>
-        <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
+        <Typography
+          align="center"
+          gutterBottom
+          sx={{ color: "text.secondary", fontSize: 14 }}
+        >
           Word of the Day
         </Typography>
-        <Typography variant="h5" component="div">
+        <Typography align="center" variant="h5" component="div">
           Squatter's rights
         </Typography>
-        <Typography sx={{ color: "text.secondary", mb: 1.5 }}>noun</Typography>
-        <Typography variant="body2">
+        <Typography align="center" sx={{ color: "text.secondary", mb: 1.5 }}>
+          noun
+        </Typography>
+        <Typography align="center" variant="body2">
           It's like finder's keepers, but for other people's houses.
           <br />
           {"-Mr. Robinson"}

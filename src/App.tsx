@@ -3,11 +3,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useTheme, Container, Button } from "@mui/material";
 import AppBar from "./components/AppBar";
 import BottomTabs from "./components/BottomTabs";
-import GroupCard from "./components/GroupCard";
-import KickstartCard from "./components/KickstartCard";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
+import Content from "./components/content/content";
 import "./App.css";
 
 const darkTheme = createTheme({
@@ -26,14 +22,7 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <Container sx={{ bgcolor: "theme.palette.primary" }}>
           <AppBar />
-          <List>
-            <ListItem>
-              <GroupCard />
-            </ListItem>
-            <ListItem>
-              <KickstartCard />
-            </ListItem>
-          </List>
+          <Content />
           <BottomTabs />
         </Container>
       </ThemeProvider>
@@ -43,4 +32,4 @@ function App() {
 
 export default App;
 
-// TODO: create a notification system where users can choose select labels or words to be notified about.
+// TODO: create a notification system where users can choose select labels or words to be notified about. Hashtags as a kind of joungle telegraph? Maybe hash tags used by the user automatically get added to the notification list.
