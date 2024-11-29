@@ -1,18 +1,20 @@
 import { useState } from "react";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import Groups from "./groups/Groups";
-import People from "./people/People";
-import Calendar from "./calendar/Calendar";
+import PeopleCard from "./PeopleCard";
+import PeopleCardSmall from "./PeopleCardSmall";
 
-export default function Content() {
+export default function People() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <List>
         <ListItem>
-          <Calendar />
+          <PeopleCard />
+        </ListItem>
+        <ListItem>
+          <PeopleCardSmall />
         </ListItem>
       </List>
     </>

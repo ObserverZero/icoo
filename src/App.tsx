@@ -3,7 +3,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useTheme, Container, Button } from "@mui/material";
 import AppBar from "./components/AppBar";
 import BottomTabs from "./components/BottomTabs";
-import Content from "./components/content/content";
+import Content from "./components/content/Content";
 import "./App.css";
 
 const darkTheme = createTheme({

@@ -43,7 +43,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
   ],
 }));
 
-export default function RecipeReviewCard() {
+export default function PeopleCard() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -51,7 +51,7 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: "100%" }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -83,7 +83,7 @@ export default function RecipeReviewCard() {
           align="left"
           sx={{ color: "text.secondary" }}
         >
-          Hail to the allmighty icon!
+          Is a really nice guy when you think about it
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -105,13 +105,14 @@ export default function RecipeReviewCard() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography align="left" sx={{ marginBottom: 2 }}>
-            Issue:
+            Dude
           </Typography>
           <Typography align="left" sx={{ marginBottom: 2 }}>
-            It is supposed to display in the app bar, and not the content.
+            Basic white guy who believes he may be doing something meaningful
+            atm
           </Typography>
           <Typography align="left" sx={{ marginBottom: 2 }}>
-            Move the shit.
+          Sux to be me
           </Typography>
         </CardContent>
       </Collapse>

@@ -1,4 +1,3 @@
-import * as React from "react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -17,7 +16,7 @@ const bull = (
 
 export default function BasicCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: 1 }}>
       <CardContent>
         <Typography
           align="center"
