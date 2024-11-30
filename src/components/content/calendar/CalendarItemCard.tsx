@@ -56,7 +56,7 @@ export default function CalendarItemCard() {
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             <img
-              src="../public/WhatComesWhenYouDie.png"
+              src="/WhatComesWhenYouDie.png"
               alt="Icon from heaven"
               height="98%"
               width="120%"
@@ -83,7 +83,9 @@ export default function CalendarItemCard() {
           align="left"
           sx={{ color: "text.secondary" }}
         >
-        We don't sell, we don't buy, we don't trade. We just do.
+          We are an anarcho syndicalisst organisation, and our constitution
+          reflects on this. We have concepts of concent in our conssstitution
+          and that predicts moral success.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
