@@ -48,7 +48,7 @@ export default function PeopleCardSmall() {
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             <img
-              src="../public/WhatComesWhenYouDie.png"
+              src="/WhatComesWhenYouDie.png"
               alt="Icon from heaven"
               height="98%"
               width="120%"

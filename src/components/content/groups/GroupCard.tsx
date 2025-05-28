@@ -32,7 +32,7 @@ export default function BasicCard() {
           noun
         </Typography>
         <Typography align="center" variant="body2">
-          It's like finder's keepers, but for other people's houses.
+          It's like finders keepers, but for other people's houses.
           <br />
           {"-Mr. Robinson"}
         </Typography>

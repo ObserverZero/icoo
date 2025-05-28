@@ -74,7 +74,7 @@ export default function CalendarItemCard() {
       <CardMedia
         component="img"
         height="194"
-        image="../public/WhatComesWhenYouDie.png"
+        image="/WhatComesWhenYouDie.png"
         alt="Icon from heaven"
       />
       <CardContent>
@@ -83,9 +83,7 @@ export default function CalendarItemCard() {
           align="left"
           sx={{ color: "text.secondary" }}
         >
-          We are an anarcho syndicalisst organisation, and our constitution
-          reflects on this. We have concepts of concent in our conssstitution
-          and that predicts moral success.
+          nope nothing to see here
         </Typography>
       </CardContent>
       <CardActions disableSpacing>

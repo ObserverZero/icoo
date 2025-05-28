@@ -56,7 +56,7 @@ export default function RecipeReviewCard() {
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             <img
-              src="../public/WhatComesWhenYouDie.png"
+              src="/WhatComesWhenYouDie.png"
               alt="Icon from heaven"
               height="98%"
               width="120%"
@@ -74,7 +74,7 @@ export default function RecipeReviewCard() {
       <CardMedia
         component="img"
         height="194"
-        image="../public/WhatComesWhenYouDie.png"
+        image="/WhatComesWhenYouDie.png"
         alt="Icon from heaven"
       />
       <CardContent>

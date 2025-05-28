@@ -1,20 +1,40 @@
 import { useState } from "react";
+import GroupCard from "./groups/GroupCard";
+import KickstartCard from "./groups/KickstartCard";
+import PeopleCard from "./people/PeopleCard";
+import PeopleCardSmall from "./people/PeopleCardSmall";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import Groups from "./groups/Groups";
-import People from "./people/People";
-import Calendar from "./calendar/Calendar";
+import Box from "@mui/material/Box";
+import { useTheme } from "@mui/material/styles";
+import SearchBar from "./SearchBar";
 
 export default function Content() {
-  const [count, setCount] = useState(0);
+  const theme = useTheme();
 
   return (
-    <>
+    <Box sx={{ 
+      paddingTop: { 
+        xs: theme.spacing(8), // Additional padding for mobile
+        sm: theme.spacing(10) // Additional padding for desktop
+      }
+    }}>
+      <SearchBar />
+      
       <List>
         <ListItem>
-          <Calendar />
+          <GroupCard />
+        </ListItem>
+        <ListItem>
+          <KickstartCard />
+        </ListItem>
+        <ListItem>
+          <PeopleCard />
+        </ListItem>
+        <ListItem>
+          <PeopleCardSmall />
         </ListItem>
       </List>
-    </>
+    </Box>
   );
 }

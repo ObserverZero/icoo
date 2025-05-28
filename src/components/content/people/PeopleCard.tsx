@@ -56,7 +56,7 @@ export default function PeopleCard() {
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             <img
-              src="../public/WhatComesWhenYouDie.png"
+              src="/SlightlyCreepySmiley.jpg"
               alt="Icon from heaven"
               height="98%"
               width="120%"
@@ -74,7 +74,7 @@ export default function PeopleCard() {
       <CardMedia
         component="img"
         height="194"
-        image="../public/WhatComesWhenYouDie.png"
+        image="/SlightlyCreepySmiley.jpg"
         alt="Icon from heaven"
       />
       <CardContent>
@@ -83,7 +83,7 @@ export default function PeopleCard() {
           align="left"
           sx={{ color: "text.secondary" }}
         >
-          Is a really nice guy when you think about it
+          Is a real nice guy when you think about it
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -112,7 +112,7 @@ export default function PeopleCard() {
             atm
           </Typography>
           <Typography align="left" sx={{ marginBottom: 2 }}>
-          Sux to be me
+            Sux to be me
           </Typography>
         </CardContent>
       </Collapse>
